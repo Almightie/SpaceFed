@@ -9,7 +9,8 @@ An open-source resource-management game, combining the likes of games like Priso
 	- 2.2 - [Compiling and Running](#22-compiling-and-running)
 - 3 - [Contributing](#3-contributing)
   - 3.1 - [New Features](#31-new-features)
-  - 3.2 - [Bugfixes](#42-bugfixes)
+  - 3.2 - [Bugfixes](#32-bugfixes)
+
 ## 1 Introduction
 The goal of this project is to create an open source game, combining great gaming elements, like the construction-management aspects of e.g. Prison Architect and the exploration aspects of a game like Endless Space. 
 The ultimate goal is to have a game that lets you build your own settlements on space-rocks (your homeplanet at first, and conquered planets, moons and possibly stars later on).
