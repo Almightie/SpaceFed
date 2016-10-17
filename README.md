@@ -42,5 +42,5 @@ Feel free to work on any feature and submit a pull request to the develop branch
 Feel free to work on any bug and submit a pull request to the develop branch with the fix. Be sure to create an issue ticket and refer to the issue's number in the branch title.
 
 ### 3.3 Coding Standards
-Please check out our [coding standards](http://github.com/SpaceFed/STANDARDS.md) and make sure to follow them before issuing a pull request.
+Please check out our [coding standards](https://github.com/adimeus/SpaceFed/blob/master/STANDARDS.md) and make sure to follow them before issuing a pull request.
 
