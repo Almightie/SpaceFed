@@ -1,6 +1,5 @@
 ﻿using System;
 using SpaceFed.Core;
-using SpaceFed.Core.Grid.Tiles;
 
 namespace SpaceFed
 { 
@@ -12,8 +11,6 @@ namespace SpaceFed
         {
             SpaceFedGame game = new SpaceFedGame();
             game.Run();
-
-            ITile tile = new EmptyTile();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpaceFed.Core
 {
-    public enum TileType
+    public enum TileGroup
     {
         Empty,
         Ground,

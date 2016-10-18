@@ -38,8 +38,17 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Core\Grid\ITile.cs" />
-    <Compile Include="Core\Grid\TileType.cs" />
+    <Compile Include="Core\Grid\Factory\AbstractTileFactory.cs" />
+    <Compile Include="Core\Grid\Factory\GroundTileFactory.cs" />
+    <Compile Include="Core\Grid\Factory\WallTileFactory.cs" />
+    <Compile Include="Core\Grid\Grid.cs" />
+    <Compile Include="Core\Grid\Tiles\BaseTile.cs" />
+    <Compile Include="Core\Grid\Tiles\ConcreteTiles\DirtTile.cs" />
+    <Compile Include="Core\Grid\Tiles\ConcreteTiles\EmptyTile.cs" />
+    <Compile Include="Core\Grid\Tiles\ConcreteTiles\WoodenWallTile.cs" />
+    <Compile Include="Core\Grid\Tiles\TileDecorator.cs" />
+    <Compile Include="Core\Grid\Tiles\TileGroup.cs" />
+    <Compile Include="Core\Grid\Tiles\TileType.cs" />
     <Compile Include="SpaceFedGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,9 +66,7 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\Grid\Tiles\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

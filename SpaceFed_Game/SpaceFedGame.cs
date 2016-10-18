@@ -1,6 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Linq.Expressions;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SpaceFed.Core;
 
 namespace SpaceFed
 {
@@ -11,6 +13,7 @@ namespace SpaceFed
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private Grid _grid;
 
         public SpaceFedGame()
         {
@@ -22,6 +25,17 @@ namespace SpaceFed
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            int height = 32;
+            int width = 32;
+            byte[,] gridValues = new byte[height*width, 2];
+            for (int i = 0; i < height*width; i++)
+            {
+                gridValues[i, 0] = 0x01;
+                gridValues[i, 1] = 0x01;
+            }
+
+            _grid = new Grid();
+            _grid.InitGrid(height, width, gridValues);
 
             base.Initialize();
         }
