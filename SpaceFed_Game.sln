@@ -12,16 +12,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		STANDARDS.md = STANDARDS.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceFed_Content", "SpaceFed_Content\SpaceFed_Content.csproj", "{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Debug|x86.ActiveCfg = Debug|x86
 		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Debug|x86.Build.0 = Debug|x86
+		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Release|Any CPU.ActiveCfg = Release|x86
 		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Release|x86.ActiveCfg = Release|x86
 		{B9B8B23C-64A0-4D94-A196-9230C1A258DC}.Release|x86.Build.0 = Release|x86
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Debug|x86.Build.0 = Debug|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Release|x86.ActiveCfg = Release|Any CPU
+		{8BD9DA6E-6E4E-47E7-B75D-A01C85786391}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

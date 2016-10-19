@@ -61,6 +61,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\tiles_128_128.png" />
+    <Content Include="Core\Shader\SimplePixelShader.fx" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>

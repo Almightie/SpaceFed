@@ -1,0 +1,4 @@
+﻿float4 SimplePixelShader()
+{
+
+}
